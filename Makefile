@@ -3,7 +3,7 @@ TARGET = instance_segmentation
 CXXFLAGS ?= -ggdb
 CPPFLAGS ?= -std=c++11
 
-LFLAGS = -ldlib -lpng -lgif -ljpeg -lopenblas -lpthread -lX11 -lcuda
+LFLAGS = -lcudnn -lcuda -ldlib -lpng -lgif -ljpeg -lopenblas -lpthread -lX11
 
 CXX ?= nice g++
 
