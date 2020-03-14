@@ -7,7 +7,7 @@ git clone https://github.com/davisking/dlib
 mkdir dlib/build
 cd dlib/build
 
-cmake .. -DUSE_AVX_INSTRUCTIONS=1
+cmake .. -DUSE_AVX_INSTRUCTIONS=1 -DDLIB_USE_CUDA=1
 sudo make install
 ```
 
